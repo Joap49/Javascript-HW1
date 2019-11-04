@@ -1,0 +1,18 @@
+/// 04-functionConditions.js
+
+var offer = Math.floor(Math.random() * 3)
+
+function jobs(){
+  if (offer === 1){
+    return "NYU Graphic Design"
+  }
+  else if (offer === 2){
+    return "Bank of America Project Manager"
+  }
+  else{
+    return "You don't have other job offers"
+
+  }
+}
+
+console.log(jobs(offer));
